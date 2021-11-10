@@ -1,14 +1,14 @@
 
 .frmSales{
-    background-color: #141414;
+    background-color: white;
 }
 
 
 .btnSubSales{
     cursor: pointer;
     background: transparent;
-    background-color: white;
-    color: white;
+    background-color: lightslategrey;
+    color: black;
     border: none;
     margin-top: 15px;
     width: 110px;
@@ -26,7 +26,7 @@
 
 
 .flexbox-container > div {
-    background-color: lightslategrey;
+    background-color: white;
     border-radius: 0px;
 	width: 50%;
 	padding: 10px;
@@ -41,7 +41,7 @@
     cursor: default;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
     margin-top: 15px;
     margin-bottom: 15px;
 	--display: block;
@@ -100,5 +100,5 @@
 }
 
 .salesRes > p{
-    color:white
+    color:black
 }
