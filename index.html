@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TELAS X MAYOR</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/sidebar.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/modal.css">
+    <link rel="stylesheet" href="./styles/card.css">
+    <link rel="stylesheet" href="./styles/table.css">
+    <link rel="stylesheet" href="./styles/divs.css">
+    <link rel="stylesheet" href="./styles/frmSales.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./styles/general.css">
+    
+
+
+
+</head>
+
+<body>
+
+    
+    <!-- The sidebar -->
+    <div class="sidebar" id="sidebarMain">
+        <a class="active" id="btnDashBoard" title="DashBoard" alt="">DashBoard </a>
+        <a id="btnNewClient" title="Agregar nuevo cliente" alt="">Ingresar Cliente </a>
+        <a id="btnSale" title="Vender">Ingresar Venta</a>
+        <a id="btnProdudctList" title="Listado de Productos">Productos </a>
+        <a id="statisticsView">Estadísticas</a>
+        <hr>
+        <p id="usrName" style="display:none"> </p>
+        <img id="imgUsr" href="" src="" alt="" style="display:none">
+        <i alt="Salir" id="btnLogOut"  class="fas fa-sign-out-alt fa-3x" style="display:none"></i>
+    
+    </div>
+
+    <div id="dibsub1">
+
+    <div class="content" id="divPrincipal">
+        <h1> CONTROL VENTAS DE TELA X MAYOR </h1>
+        <i class="fas fa-search fa-lg"></i>
+        <input type="search" name="" id="mainSearch" class="searchBar" placeholder="Filtrar" > 
+        
+    </div>
+        <div class="contentTable">
+                <table id="clientDashTable">
+                    <thead>
+                    <tr>     
+                    <th><i class="fas fa-sort"></i> Nombre</th>
+                    <th><i class="fas fa-sort"></i> Cuit</th>
+                    <th><i class="fas fa-sort"></i> Tel</th>
+                    <th><i class="fas fa-sort"></i> E-Mail</th>
+                    <th><i class="fas fa-sort"></i> Ingreso</th>
+                    <th><i class="fas fa-sort"></i> Pago</th>
+                    <th><i class="fas fa-sort"></i> Deuda</th>
+                    <th><i class="fas fa-sort"></i> Monto</th>
+                    
+                    </tr>         
+                </thead> 
+                <tbody id="tableBodyClientDashTable">
+                </tbody>  
+                </table>
+        </div>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                
+                <div class="modal-header">
+                    <span id="CloseModal" class="close">&times;</span>
+
+                    <h2 id="titleModal"></h2>
+                </div>
+              
+
+
+                    <form id=frmAddClient style="display:none">
+                    </form>
+
+                    <form id=frmSalesClient style="display:none" class="frmSales">
+                    </form>
+                    
+                    <form id=frmnewProduct style="display:none">
+                    </form>
+              
+            </div>
+        </div>
+    </div>
+    <div id="dibsub2" style="display:none" class="content"> 
+     </div>
+ 
+<script src="./libs/sweetalert2.all.min.js"></script>
+<script src="./libs/jquery-3.6.0.min.js"></script>
+<script src="./libs/jquery.dataTables.min.js"></script>
+<script src="./libs/canvasjs.min.js"></script>
+<script src="./js/login/login.js"></script>
+<script src="./js/login/logout.js"></script>
+
+<script src="./database/products.js"></script>
+<script src="./js/functions.js"></script>
+<script src="./js/animations.js"></script>
+<script src="./js/class.js"></script>
+<script src="./js/modal.js"></script>
+<script src="./js/modalCreator.js"></script>
+<script src="./js/clientAdd.js"></script>
+<script src="./js/clientSale.js"></script>
+<script src="./js/products.js"></script>
+<script src="./js/productView.js"></script>
+<script src="./js/productAdd.js"></script>
+
+<script src="./js/app.js"></script>
+
+<script src="./js/SwalSaveData.js"></script>
+<script src="./js/apiRequest/apis.js"></script>
+<script src="./js/statistics.js"></script>
+
+
+
+</body>
+
+
+</html>

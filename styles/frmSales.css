@@ -1,0 +1,104 @@
+
+.frmSales{
+    background-color: #141414;
+}
+
+
+.btnSubSales{
+    cursor: pointer;
+    background: transparent;
+    background-color: white;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    width: 110px;
+    height: 30px;
+    display: none;
+
+}
+
+.flexbox-container {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+    
+}
+
+
+.flexbox-container > div {
+    background-color: lightslategrey;
+    border-radius: 0px;
+	width: 50%;
+	padding: 10px;
+  
+}
+
+.flexbox-container > div:first-child {
+	margin-right: 20px;
+}
+
+.flexbox-container > div > label {
+    cursor: default;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+	--display: block;
+ 
+}
+
+.flexbox-container > div > select {
+    margin-top: 15px;
+	display: block;
+ 
+}
+
+.center{
+    justify-content: center;
+}
+
+.LabelaStyle{
+    color: aliceblue;
+    cursor: default;
+}
+
+.selectClient{
+    display: block;
+    color: white;
+    text-align:center;
+    background: #202945;
+    border: none;
+    font-size: 14px;
+    height: 40px;
+    padding: 5px;
+    width: 250px;
+}
+
+.inptModif > input{
+
+    display: block;
+    color: white;
+    text-align:center;
+    background: lightslategrey;
+    border: none;
+    font-size: 14px;
+    height: 40px;
+    padding: 0px;
+    width: 250px !important;
+
+}
+
+.mt-15{
+    margin-top: 15px;
+}
+
+.salesRes{
+    align-items: center;
+    text-align: center;
+    
+}
+
+.salesRes > p{
+    color:white
+}
